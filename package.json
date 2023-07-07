@@ -1,0 +1,27 @@
+{
+  "name": "react-native-multi-checkbox",
+  "version": "1.0.1",
+  "description": "This is the package for multiple checkbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopal7007/react-native-multi-checkbox.git"
+  },
+  "keywords": [
+    "checkbox",
+    "Multi-checkbox",
+    "Multiple-checkbox",
+    "checkboxes",
+    "Multi",
+    "Multiple"
+  ],
+  "author": "gopal khatri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopal7007/react-native-multi-checkbox/issues"
+  },
+  "homepage": "https://github.com/gopal7007/react-native-multi-checkbox#readme"
+}
