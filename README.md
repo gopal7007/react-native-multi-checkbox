@@ -38,7 +38,20 @@ Add Inside render method of component , use MultiCheckbox component:
     labelStyle={{color: '#000000'}}
     itemStyle={{marginBottom: 10}}
 />
-```
+
+Use action
+
+const handleCheckboxChange = (checkId) => {
+        if (selectedItem.includes(checkId)) {
+            // If the value is already in the array, remove it
+            setSelectedItem(selectedItem.filter((item) => item !== checkId));
+        } else {
+            // If the value is not in the array, add it
+            setSelectedItem([...selectedItem, checkId]);
+        }
+    };
+    
+``` 
  
 
 
